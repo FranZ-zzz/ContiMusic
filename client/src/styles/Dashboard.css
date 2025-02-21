@@ -1,0 +1,44 @@
+.dashboard {
+    display: flex;
+    height: 100vh;
+    background: linear-gradient(to right, #1a1a2e, #3a0ca3);
+    color: white;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  .search-container {
+    margin: 20px auto;
+    width: 80%;
+  }
+  
+  .search-bar {
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+    background: #29294d;
+    color: white;
+  }
+  
+  .search-results {
+    margin-top: 15px;
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  
+  .player-container {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #0d0221;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.5);
+  }
+  

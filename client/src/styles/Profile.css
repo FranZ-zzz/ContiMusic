@@ -1,0 +1,55 @@
+.profile-container {
+  max-width: 600px;
+  margin: 40px auto;
+  background: linear-gradient(135deg, #4c0273, #1a1a1a);
+  padding: 20px;
+  border-radius: 12px;
+  color: white;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.profile-header {
+  margin-bottom: 20px;
+}
+
+.profile-info {
+  line-height: 1.6;
+}
+
+.profile-name {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.profile-location,
+.profile-genre,
+.profile-followers,
+.profile-following {
+  font-size: 1rem;
+  color: #b3b3b3;
+}
+
+.profile-stats {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.stat-box {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  border-radius: 8px;
+  width: 30%;
+  text-align: center;
+}
+
+.stat-box h3 {
+  font-size: 1rem;
+  color: #1db954;
+}
+
+.stat-box p {
+  font-size: 1.2rem;
+  font-weight: bold;
+}

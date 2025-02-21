@@ -1,0 +1,24 @@
+.player-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(135deg, #4c006e, #1a1a1a);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+  }
+  
+  .player-container:hover {
+    background: linear-gradient(135deg, #5d0085, #222222);
+    box-shadow: 0px -6px 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  .spotify-player {
+    width: 100%;
+    max-width: 800px;
+  }
+  

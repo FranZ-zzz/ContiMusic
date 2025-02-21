@@ -1,0 +1,105 @@
+.albums-container {
+  padding: 20px;
+  color: white;
+  background: linear-gradient(to right, #1a1a2e, #3a0ca3);
+  min-height: 100vh;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.search-input {
+  width: 60%;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  font-size: 16px;
+  background: #29294d;
+  color: white;
+}
+
+.search-button {
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: none;
+  background: #6a0dad;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.search-button:hover {
+  background: #4c2a85;
+}
+
+.loading {
+  text-align: center;
+  font-size: 18px;
+  color: #ffcc00;
+}
+
+.error {
+  text-align: center;
+  font-size: 18px;
+  color: #ff4444;
+}
+
+.results-container {
+  margin-top: 20px;
+}
+
+.albums-section, .tracks-section {
+  margin-top: 30px;
+}
+
+.albums-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.album-card, .track-card {
+  background: #29294d;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.album-img, .track-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.track-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.track-info {
+  text-align: left;
+}
+
+.spotify-link {
+  display: inline-block;
+  margin-top: 5px;
+  padding: 5px 10px;
+  background: #1db954;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.spotify-link:hover {
+  background: #198f40;
+}
