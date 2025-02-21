@@ -1,10 +1,10 @@
-#Proyecto de reproductor de musica 
-##Ingeniería Web
+# Proyecto de reproductor de musica 
+## Ingeniería Web
 
-##Integrantes:
+## Integrantes:
 
-###-Lazaro Rios Jose Junior
-###-Quispe Povis Diego Marlon
-###-Curassi Montano Piero Franz
-###-Zacarias Lopez Lenning Andree
-###-Huaman Huatuco Emilio
+- Lazaro Rios Jose Junior
+- Quispe Povis Diego Marlon
+- Curassi Montano Piero Franz
+- Zacarias Lopez Lenning Andree
+- Huaman Huatuco Emilio
